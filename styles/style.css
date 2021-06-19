@@ -149,7 +149,7 @@ nav li:hover>a{
     border-style: solid;
     border-color: var(--vg) transparent transparent;
 }
-.burbuja>h1{
+.burbuja h1{
     font-size: 1.3em;
     text-align: center;
     position:absolute;
