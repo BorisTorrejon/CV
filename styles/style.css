@@ -184,12 +184,19 @@ a>img{
 .languages{
     position: absolute;
     flex-wrap: wrap;
-    width: 75px;
+    width: 70px;
     right: 10px;
+}
+.languages>input{
+    width: 15px;
+}
+.languages>span{
+    width: 55px;
 }
 main>h1{
     width: 100%;
     font-size: 1.8em;
+    margin-top: 20px;
     padding: 10px;
 }
 main>section{
