@@ -181,6 +181,10 @@ a>img{
     border-radius: 45px;
     border: 1px var(--vb) solid;
 }
+.languages{
+    position: absolute;
+    right: 10px;
+}
 main>h1{
     width: 100%;
     font-size: 1.8em;

@@ -11,15 +11,15 @@
     <header class="flex">
         <nav class="flex">
             <div>
-                <h2 class="flex">MENU</h2>
+                <h2 class="flex m">MENU</h2>
                 <ul>
-                    <li class="flex img-i"><a href="#i">INICIO</a></li>
-                    <li class="flex img-e"><a href="#e">EDUCACION</a></li>
-                    <li class="flex img-h"><a href="#h">HABILIDAD</a></li>
-                    <li class="flex img-j"><a href="#t">EXPERIENCIA LABORAL</a></li>
+                    <li class="flex img-i m"><a href="#i">INICIO</a></li>
+                    <li class="flex img-e m"><a href="#e">EDUCACION</a></li>
+                    <li class="flex img-h m"><a href="#h">HABILIDAD</a></li>
+                    <li class="flex img-j m"><a href="#t">EXPERIENCIA LABORAL</a></li>
                     <div class="flex fmenu">
                         <h2>Boris Torrejon</h2>
-                        <p>"Soy una obra en construcción"</p>
+                        <p class="m">"Soy una obra en construcción"</p>
                         <div class="flex redes">
                             <ul><a href="tel:+542236951583"><img src="./images/t.png" alt="tel"></a></ul>
                             <ul><a href="mailto:torrejonboris@gmail.com"><img src="./images/e.png" alt="email"></a></ul>
@@ -47,8 +47,13 @@
         </li>
     </header>
     <main class="flex">
+        <form class="languages" action="#">
+            <input class="language" type="radio" name="lang" value="es"><span>Español</span>
+            <input class="language" type="radio" name="lang" value="en"><span>English</span>
+            <input class="language" type="radio" name="lang" value="fr"><span>français</span>
+        </form>
         <h1 id="i">Soy Boris</h1>
-        <section>
+        <section id="sect1">
             <h2 id="sub">Developer Full Stack & Data Analytic</h2>
             <p>Tengo 31 años, nací en Lomas de Zamora, Bs. As., Argentina. Actualmente vivo en Mar del Plata.
                 Me apasiona el desarrollo y análisis de sistemas, tengo facilidad para la resolución de problemas, soy muy exigente conmigo mismo, busco contantemente superarme, tengo facilidad para aprender nuevas herramientas.
@@ -57,7 +62,7 @@
                 Secreto….actúe en una película, contáctame y tal vez te pase el link de la película.
                 </p>
         </section>
-        <section id="e" class="cuadro">
+        <section id="sect2" class="cuadro">
             <h2 class="flex">Educación</h2>
             <div class="contenedor">
                 <div>
@@ -87,7 +92,7 @@
                 </div>
             </div>
         </section>
-        <section id="h" class="cuadro">
+        <section id="sect3" class="cuadro">
             <h2 class="flex">Habilidades</h2>
             <div class="flex contenedor">
                <div class="flex habilidades">
@@ -124,7 +129,7 @@
                </div>
             </div>
         </section>
-        <section class="cuadro">
+        <section id="sect4" class="cuadro">
             <h2 class="flex">Otras Habilidades</h2>
             <div class="contenedor">
                 <div class="flex habilidades">
@@ -149,7 +154,7 @@
                 </div>
             </div>
         </section>
-        <section id="trabajos" class="cuadro trabajos">
+        <section id="sect5" class="cuadro trabajos">
             <h2 class="flex">Experiencia Laboral</h2>
             <div class="contenedor trabajo">
                 <div>
@@ -192,7 +197,7 @@
     </main>
     <footer class="flex">
         <h3>Boris Torrejon</h3>
-        <p>"Soy una obra en construcción"</p>
+        <p class="m">"Soy una obra en construcción"</p>
         <div>
             <a id="tel" href="tel:+542236951583"><img src="./images/cell.png" alt="tel"></a>
             <a id="email" href="mailto:torrejonboris@gmail.com"><img src="./images/email.png" alt=""></a>
@@ -205,6 +210,7 @@
         </li>
     </footer>
     <script src="./js/typed.js"></script>
+    <script src="./js/data.js"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>
