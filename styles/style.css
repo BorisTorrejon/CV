@@ -183,6 +183,8 @@ a>img{
 }
 .languages{
     position: absolute;
+    flex-wrap: wrap;
+    width: 75px;
     right: 10px;
 }
 main>h1{
